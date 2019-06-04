@@ -2,8 +2,6 @@
 ## Is this a triangle
 https://www.codewars.com/kata/is-this-a-triangle
 <details>
-<summary>КОД</summary>
-<p>
 ```haskell
 module Codewars.Triangles where
 
@@ -17,7 +15,6 @@ isTriangle a' b' c' = if (all (> 0) [a', b', c']) && ((p-a)*(p-b)*(p-c) > 0)
                      c = fromIntegral c'
                      p = (a + b + c)/2
 ```
-</p>
 </details>
 **Вывод:** задание было простое, но мне хотелось решить его как-нибудь по особенному, поэтому даже пока думал решение, уехал на 2 станции метро в другую сторону, ну ладно, бывает. Решение должно было быть намного лаконичнее, но там было ограничение на тип данных, так что пришлось впилить fromIntegral. 
 
