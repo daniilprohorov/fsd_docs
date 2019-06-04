@@ -1,7 +1,7 @@
 # Отчёт 2
 ## Tribonacci sequence
 https://www.codewars.com/kata/tribonacci-sequence
-```
+```haskell
 module Tribonacci where
 
 tribonacci :: Num a => (a, a, a) -> Int -> [a]
@@ -18,7 +18,7 @@ tri n l = tri (n-1) (sum ( take 3 l) : l)
 ## Title case
 https://www.codewars.com/kata/title-case
 
-```
+```haskell
 module TitleCase (titleCase) where
 
 import           Data.Char (toLower, toTitle)

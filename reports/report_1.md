@@ -1,7 +1,7 @@
 # Отчёт 1
 ## Is this a triangle
 https://www.codewars.com/kata/is-this-a-triangle
-```
+```haskell
 module Codewars.Triangles where
 
 isTriangle :: Int -> Int -> Int -> Bool
@@ -18,7 +18,7 @@ isTriangle a' b' c' = if (all (> 0) [a', b', c']) && ((p-a)*(p-b)*(p-c) > 0)
 
 ## Disemvowel trolls
 https://www.codewars.com/kata/disemvowel-trolls
-```
+```haskell
 module Disemvowel where
 import qualified Data.Set as Set
 
@@ -31,7 +31,7 @@ disemvowel str = filter (\c -> not $ Set.member c vowels) str
 
 ## Highest and lowest
 https://www.codewars.com/kata/highest-and-lowest
-```
+```haskell
 module Kata (highAndLow) where
 import Data.List (sort)
 highAndLow :: String -> String
@@ -45,7 +45,7 @@ highAndLow input = result (last sorted) (head sorted)
 
 ## Isograms
 https://www.codewars.com/kata/isograms
-```
+```haskell
 module Isogram where
 import Data.List (nub)
 import Data.Char (toLower)
@@ -61,7 +61,7 @@ isIsogram str = (nub lowerStr) == lowerStr
 
 ## Split strings
 https://www.codewars.com/kata/split-strings
-```
+```haskell
 module Codewars.Kata.SplitStrings where
 
 solution :: String -> [String]

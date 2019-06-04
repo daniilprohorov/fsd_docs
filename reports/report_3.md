@@ -2,7 +2,7 @@
 ### Дополнительная ката №1
 ## Consecutive letters 
 https://www.codewars.com/kata/consecutive-letters
-```
+```haskell
 module ConsecutiveLetters where 
 import Data.List (nub, isPrefixOf, sort, dropWhile)
 
@@ -19,7 +19,7 @@ first = head sorted
 
 ## Бесконечные структуры
 https://www.codewars.com/kata/functional-streams
-```
+```haskell
 module Stream where
 
 import Control.Arrow
