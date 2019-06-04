@@ -69,7 +69,7 @@ highAndLow input = result (last sorted) (head sorted)
 ## Isograms
 https://www.codewars.com/kata/isograms
 
-<details>КОД
+<details>
 <summary>КОД</summary>
 <p>
     
